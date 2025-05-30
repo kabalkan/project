@@ -3,17 +3,19 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 2rem;
+    margin: 0 auto;
     padding: 2rem;
+    background-color: #B9EDEF;
 }
 
 /* Styles for the container element */
 .container {
     max-width: 900px; /* Set maximum width for the container */
     margin: 0 auto; /* Center the container horizontally */
-    padding: 40px; /* Add padding inside the container */
+    padding: 50px; /* Add padding inside the container */
     margin-top: 10%; /* Set top margin as a percentage of the viewport height */
     overflow: hidden; /* Hide any overflowing content */
+    background-color: #B9EDEF;
 }
 
 /* Styles for the password visibility icon */
@@ -75,11 +77,12 @@ body {
 /* Styles for the role text in signup */
 .signup-role {
     font-size: 16px; /* Set font size */
-    margin-bottom: 10px; /* Add bottom margin */
+    margin-bottom: 40px; /* Add bottom margin */
 }
 
 /* Styles for form groups in the signup form */
 .form-group {
+    margin-top: 10px;
     margin-bottom: 20px; /* Add bottom margin to form groups */
 }
 
@@ -91,7 +94,7 @@ body {
 
 /* Styles for form controls in the signup form */
 .form-control {
-    width: 40%; /* Set width of form controls */
+    width: 90%; /* Set width of form controls */
     padding: 8px; /* Add padding inside form controls */
     font-size: 16px; /* Set font size */
     border: 1px solid #ccc; /* Add border with color */
@@ -100,17 +103,18 @@ body {
 
 /* Styles for button group in the signup form */
 .btn-group {
-    margin-top: .0001px; /* Add a small top margin to button group */
-    margin-bottom: 20px; /* Add bottom margin to button group */
+    margin-top: 0 auto; /* Add a small top margin to button group */
+    margin-bottom: 0 auto; /* Add bottom margin to button group */
 }
 
 /* Styles for buttons in the signup form */
 .btn {
-    padding: 10px 20px; /* Set padding for buttons */
+    padding: 10px 50px; /* Set padding for buttons */
     font-size: 16px; /* Set font size for buttons */
     border: none; /* Remove button borders */
     border-radius: 4px; /* Add border radius for rounded corners */
     cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 10px;
 }
 
 /* Styles for primary button in the signup form */
